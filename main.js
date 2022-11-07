@@ -11,9 +11,9 @@ const btn = document.querySelector('#add')
 btn.addEventListener('click', () => {
   const input = document.querySelector('#myInput')
   const value = +input.value
-  if (isNumber(value)) {
-    list.push(value)
-  }
+//   if (isNumber(value)) {
+//     list.push(value)
+//   }
   console.log(list);
   input.value = ''
   const orderList = mySort(list)
